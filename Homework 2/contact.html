@@ -1,0 +1,101 @@
+<!--Contact webpage with Bootstrap using cards-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <!--Adding the responsive meta tag to scale across different devices--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap CSS link added below--> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--Adding a stylesheet with CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Responsive Portfolio</title>
+
+  </head>
+
+  <body>
+     <!-- Static navbar copied from Bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="#">Dianna Mack</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Main content goes in a container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!--This content is wrapped in a card-->
+          <div class="card">
+            <div class="card-body">
+              <h2>Contact</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    <form>
+      <div class="card">
+        <div class="card-body">
+
+      <!--Adding a grid system to the content-->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+          <label for="InputName">Name</label>
+          <input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Enter First and Last Name">
+          </div>
+        </div>
+      </div>
+     <div class="row">
+       <div class="col-sm-12">
+          <div class="form-group">
+          <label for="InputEmail">Email</label>
+          <input type="email" class="form-control" id="Inputemail" placeholder="Example@gmail.com">
+      </div>
+        <div class="form-group">
+        <label for="FormControlTextarea1">Message</label>
+        <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-info">Submit</button>
+    
+      </div>
+    </div>
+  </div>
+</form>
+
+<footer>
+  <div class="footer">
+    <p>©Copyright 2020</p>
+  </div>
+  
+</footer>
+        
+
+  </body>
+</html>
