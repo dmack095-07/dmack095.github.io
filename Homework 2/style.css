@@ -5,6 +5,28 @@
   color: white;
   text-align: center;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  margin: 5px 2px;
+  float: right;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color:#125688;
+}
+
+.fa-linkedin {
+  color:#007bb5;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
@@ -13,8 +35,12 @@ h1 {
 
 img {
   width: 80%;
-  height: 50px;
+  height: 40px;
   margin-left: 50px;
+}
+
+.btn-group {
+  float: right;
 }
 
 
